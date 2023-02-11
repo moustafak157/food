@@ -1,0 +1,287 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: georgia;
+}
+header{
+    min-height: 100vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6))
+   , url(../images/hero.jpg);
+   background-position: center;
+   background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 120px;
+    margin-top: 20px;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+}
+.main-nav li{
+   margin-right: 25px;
+}
+.main-nav li a{ 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.main-nav li a:hover{ 
+    color: orange;
+}
+.hero{
+    position: absolute;
+    right: 45%;
+    bottom: 40%;
+}
+h1{
+    
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+.btn{
+    color: orange;
+    font-size: 25px;
+    border: solid orange 1px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+section{
+    padding: 50px 0px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 500;
+    font-family: verdana;
+    letter-spacing: 2px;
+}
+hr{
+    margin: 15px auto;
+    border: 1px solid orange;
+    width: 150px;
+}
+.feat-one{
+    width: 60%;
+    margin: 30px auto;
+    line-height: 1.5;
+    color: #333;
+}
+.box i{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.box h3{
+    
+    margin-bottom: 20px;
+    
+    color: #333;
+    
+    font-family: verdana;
+    font-size: 18px;
+}
+.box p{
+    line-height: 1.5;
+}
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    opacity: .6;
+    transition: .5s;
+    transform: scale(1.1);
+}
+.meal img:hover{
+    width: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+.city img{
+    width: 100%;
+    margin-bottom: 10px;
+    transform: scale(1);
+}
+.city img:hover{
+    width: 100%;
+    margin-bottom: 10px;
+    transform: scale(1.1);
+}
+.city h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.info{
+    margin-bottom: 10px;
+}
+.info i{
+    margin-right: 15px;
+    color: orange;
+}
+.customer{
+    min-height: 60vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.8) , rgba(0, 0, 0, 0.8))
+   , url(../images/back-customers.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.bc {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-family: verdana;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.cust{
+    padding: 20px;
+    margin-top: 40px;
+   
+}
+.all_cust{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.back{
+    
+    margin-top: 40px;
+}
+.cust i{
+    color: white;
+    font-size: 30px;
+}
+.cust h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back img{
+    border-radius: 50%;
+    width: 90px;
+}
+.back h3{
+    margin-top: 15px;
+    color: white;
+}
+form{
+    margin-top: 60px;
+}
+label{
+    margin-bottom: 10px;
+}
+
+input[type=text],textarea,
+input[type=email]
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 2px #ccc;
+    margin-bottom: 10px;
+}
+select{
+    width: 105%;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 2px #ccc;
+    margin-bottom: 10px;
+
+}
+input[type=checkbox]{
+    margin-bottom: 10px;
+
+}
+
+button{
+    padding: 10px 20px;
+    border: solid 2px orange;
+    background-color: orange;
+    color: white;
+    border-radius: 15px ;
+}
+button:hover{
+    background-color: black;
+    color: orange;
+}
+footer{
+    padding: 40px 0px;
+    background-color: #333;
+
+}
+footer p{
+    color: #ccc;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav , .social-nav
+{
+    display: flex;
+    list-style: none;
+}
+.social-nav{
+    float: right;
+}
+.footer-nav li , .social-nav li
+{
+    margin-right: 20px;
+}
+.footer-nav li a , .social-nav li a
+{
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+}
+
+.footer-nav li a:hover , .social-nav li a:hover
+{
+    color: white;
+    transform: translateY(4px);
+    
+}
+.face i:hover{
+    color: #1877f2;
+    
+}
+.twi i:hover{
+    color: #1da1f2;
+}
+.tele i:hover{
+    color: #0088cc;
+}
+.wha i:hover{
+    color: #4aae20;
+}
+.insta i:hover{
+    color: #e1306c;
+}
+
